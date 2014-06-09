@@ -23,7 +23,7 @@ $(function() {
     
     $('.twitter').on('click', function() {
         var loc = encodeURIComponent('http://kck.st/1kKQwEl'),
-                title = "Check out @structur3Dprint's pastruder for #3Dprinting. Go beyond plastic: print silicone, nutella, woodfiller + more ",
+                title = "Check out @structur3Dprint's pastruder for 3Dprinting. Go beyond plastic: print silicone, nutella, woodfiller + more ",
                 w = 580, h = 300,
                 left = (screen.width/2)-(w/2),
                 top = (screen.height/2)-(h/2);
