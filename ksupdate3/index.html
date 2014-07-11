@@ -1,83 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Structur3D - Goal</title>
+        <title>Structur3D - Discov3ry Share</title>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
-        <link rel="stylesheet" type="text/css" href="update.css" />
+        <link rel="stylesheet" type="text/css" href="share.css" />
+        <link type="text/css" rel="stylesheet" media="only screen and (max-width: 600px)" href="mobile.css" />
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <meta property="og:title" content="Structur3D" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="http://static.squarespace.com/static/5320f582e4b0fd524adcad9c/t/533ec0a9e4b06aba07674962/1401543365892/?format=400w" />
-        <meta property="og:description" content="We're almost at our goal, help us get there in record time!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     </head>
     <body>
-        <h1>Let's Make Canadian Kickstarter History! $100k in 7 Days!</h1>
+        <h1>Support Structur3D Printing with 3 Clicks</h1>
         <div id="container">
-            <p id="video">
-                <iframe width="480" height="360" src="https://www.kickstarter.com/projects/structur3d/discov3ry-extruder-do-more-than-ever-with-your-3d/widget/video.html" frameborder="0" scrolling="no"> </iframe>
-            </p>
-            <div id="actions">
-                <p>Help us out by liking some (or all) of these articles about us.</p>
-                <div class="clearfix">
-                    <div class="like">
-                        <b>Fan Page</b><br /><br />
-                        <div class="fb-like" data-href="http://facebook.com/Structur3DPrinting" data-send="false" data-layout="box_count"></div>
-                    </div>
-                    
-                    <div class="like">
-                        <a href="http://techcrunch.com/2014/06/11/new-3d-print-head-makes-it-easier-to-print-nutella/"><b>TechCrunch</b></a><br /><br />
-                        <div class="fb-like" data-href="http://techcrunch.com/2014/06/11/new-3d-print-head-makes-it-easier-to-print-nutella/" data-send="false" data-layout="box_count"></div>
-                    </div>
-
-                    <div class="like">
-                        <a href="http://www.3ders.org/articles/20140610-discov3ry-universal-paste-extruder-for-3d-printer-launches-on-kickstarter.html"><b>3Ders.org</b><pleas/a><br /><br />
-                        <div class="fb-like" data-href="http://www.3ders.org/articles/20140610-discov3ry-universal-paste-extruder-for-3d-printer-launches-on-kickstarter.html" data-send="false" data-layout="box_count"></div>
-                    </div>
-                    
-                    <div class="like">
-                        <a href="http://www.fastcolabs.com/3031753/finally-a-3d-printer-that-can-sculpt-with-silicone-nutella-or-pretty-much-anything-viscous"><b>Fast Co.</b></a><br /><br />
-                        <div class="fb-like" data-href="http://www.fastcolabs.com/3031753/finally-a-3d-printer-that-can-sculpt-with-silicone-nutella-or-pretty-much-anything-viscous" data-send="false" data-layout="box_count"></div>
-                    </div>
-                    
-                    <div class="like">
-                        <a href="http://mashable.com/2014/06/10/3d-printer-nutella/"><b>Mashable</b></a><br /><br />
-                        <div class="fb-like" data-href="http://mashable.com/2014/06/10/3d-printer-nutella/" data-send="false" data-layout="box_count"></div>
-                    </div>
-                    
-                    <div class="like">
-                        <a href="http://www.entrepreneur.com/article/234711"><b>Entrepreneur</b></a><br /><br />
-                        <div class="fb-like" data-href="http://www.entrepreneur.com/article/234711" data-send="false" data-layout="box_count"></div>
-                    </div>
-                                        
-
-                    
-                   
-                </div>
+            <p id="welcome">
+                <b>Hola, rockstar!</b><br /><br />We hope you're having an awesome day. You're here because we know you have influence. When you share something, people pay attention. So, please take a few seconds to spread the Structur3D love.
                 <br /><br />
-                <a href="http://kck.st/1mVwhmT">
-                    <button style="margin-bottom:50px">Back Discov3ry Now</button>
-                </a>
-                <br /><br />
-                <p id="welcome">
                 <b>Thanks so much,</b>
                 <br />
-                Charles, Andrew and John
+                Charles, Andrew, John and the entire Structur3D team!
             </p>
-                <img  style="margin-bottom:50px" src="http://i.imgur.com/hFzzchJm.png">
-                
-                
+            <p align="center"><img src="https://dl.dropboxusercontent.com/u/606043/S3DTeam-1small.jpg" alt="You are the best!"></p>
+            <div id="progress">
+                <div class="percent">
+                    <div class="number">0%</div>
+                </div>
             </div>
+            <ul id="actions">
+                <li>
+                    <h2>1. Share on Facebook</h2>
+                    <p>Share Discov3ry with your friends</p>
+                    <button class="facebook">Share</button>
+                </li>
+                <li>
+                    <h2>2. Post on Twitter</h2>
+                    <p>Hook your following up with the Discov3ry</p>
+                    <button class="twitter">Tweet</button>
+                </li>
+                <li>
+                    <h2>3. Watch our Video</h2>
+                    <p>Thank you in advance for backing Discov3ry</p>
+                    <button class="play">Play</button>
+                </li>
+            </ul>
         </div>
-        <div id="fb-root"></div>
-        <script>
-            (function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=270058479685802";
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
+        <div id="footer">&copy; Structur3D.io 2014</div>
+        <script src="main.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
